@@ -107,16 +107,16 @@ while capture.isOpened():
     frame = cv2.flip(frame, 1)
     
     # --- RECTÁNGULO 1 (izquierda) ---
-    #procesar_rectangulo(frame, 50, 10, 250, 210, "left", 0.3)
+    procesar_rectangulo(frame, 50, 10, 250, 210, "left", 0.3)
 
     # --- RECTÁNGULO 2 (derecha) ---
-    #procesar_rectangulo(frame, 50, 250, 250, 450, "right", 0.3)
+    procesar_rectangulo(frame, 50, 250, 250, 450, "right", 0.3)
     
     # --- RECTÁNGULO 3 (salto) ---
     procesar_rectangulo(frame, 400, 10, 600, 210, "x", 0.01)
     
     # --- RECTÁNGULO 4 (poder) ---
-    #procesar_rectangulo(frame, 400, 250, 600, 450, "z", 0.01)
+    procesar_rectangulo(frame, 400, 250, 600, 450, "z", 0.01)
     
     # Mostrar las imágenes necesarias
     cv2.imshow("Gesto", frame)
