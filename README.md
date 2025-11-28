@@ -1,1 +1,3 @@
 # Proyecto-Vision-por-Computador
+
+Descargar y ejecutar el archivo en terminal python, no olvidar descagar librerias (menos math y time) usando pip install ...
