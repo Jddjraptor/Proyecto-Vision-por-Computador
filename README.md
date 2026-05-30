@@ -56,7 +56,7 @@ python alternative_main.py
 
 ## Nota sobre MediaPipe
 
-La implementación ocular utiliza **MediaPipe**, el cual puede presentar incompatibilidades en algunas instalaciones recientes. Por este motivo, el proyecto utiliza:
+La implementación ocular utiliza **MediaPipe**, el cual puede presentar incompatibilidades en algunas instalaciones recientes (específicamente, la versión no puede ser superior a la 0.10.21). Por este motivo, el proyecto utiliza:
 
 ```txt
 mediapipe==0.10.8
